@@ -8,12 +8,12 @@ We will use this to train some popular supervised classification algorithms in P
 The first Notebook looks at the data set in more detail and does some basic exploratory data analysis on it.
 
 ## Getting the Data
-The data can be downloaded from the ICS archives but is also included with SciKit-Learn. There is a helper module in the repo that has a function that automatically loads the Iris data set for you - so we dont have to worry too much about how this is done today. The function also identifies which columns will be used as features (X) and labels (y).
+The data can be downloaded from the ICS archives but is also included with SciKit-Learn. There is a helper module in the repo that has a function `get_iris_data()` that automatically loads the Iris data set for you - so we dont have to worry too much about how this is done today. The function also identifies which columns will be used as features (X) and labels (y).
 
 ### Test - Train Split
 This function also splits the data into __Train__ data and __Test__ data. As the names suggest, we will use one set to train our model and then test the model on the other set.
 
-Data splitting is performed using the [test_train_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) utility, defaulting with a test size of 30%.
+Data splitting is performed using the [test_train_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) utility in SciKit-Learn, defaulting with a test size of 30%.
 
 ```Python
  X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
