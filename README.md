@@ -32,9 +32,12 @@ X_train_std = sc.transform(X_train)
 X_test_std = sc.transform(X_test)
 ```
 
+The function is as follows: 
 *  `get_iris_data(test_size=0.3)`  -> Iris Data Set retrieval, split into train/test set (default 30%, can be changed by setting test_size parameter) and standardised. Returns the `X_train_std, y_train, X_test_std, y_test, X_combined_std, y_combined, X_train, X_test`
 
 ### Plotting the data 
+The utility module also has a funcion that plots the data, highlighting the training and test data and plotting the model boundaries so we can visualise how each model looks against the data.
+
 * `plot_decision_regions(X,y,classifier, test_idx=None, resolution=0.02)`  -> plots the data and the decision regions produced by a model
 
 
