@@ -57,4 +57,5 @@ Each notebook guides you through so you can go at your own pace - there are vari
 # EXTRA
 1. What other ways could you visualise and explore the Iris dataset? Implement these and try different Pandas and matplotlib routines.
 2. What affect does the NN parameter have on the model? Run run teh code with different XX and see what happens. How could you optimise this?
+3. Open up the scikit_utilities.py file and have a deeper look at the functions. 
 
