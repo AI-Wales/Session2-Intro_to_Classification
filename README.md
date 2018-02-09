@@ -5,7 +5,7 @@ We will use the [Iris Data Set](https://archive.ics.uci.edu/ml/datasets/iris). T
 
 We will use this to train some popular supervised classification algorithms in Python and [SciKit-Learn](http://scikit-learn.org/stable/).
 
-The first couple of Notebooks introduc you to the environment and look at the data set in more detail and shows how you can perform  some basic exploratory data analysis.
+The first couple of Notebooks introduce you to the environment and look at the data set in more detail and shows how you can perform  some basic exploratory data analysis.
 
 ## Getting the Data
 The data can be downloaded from the ICS archives but is also included with SciKit-Learn. To make life especially easy there is a helper module in the repo that has a function `get_iris_data()` that automatically loads the Iris data set for you - so we dont have to worry too much about how this is done today. The function also identifies which columns will be used as features (X) and labels (y).
