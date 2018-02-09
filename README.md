@@ -11,7 +11,7 @@ The first couple of Notebooks introduce you to the environment and look at the d
 The data can be downloaded from the ICS archives but is also included with SciKit-Learn. To make life especially easy there is a helper module in the repo that has a function `get_iris_data()` that automatically loads the Iris data set for you - so we dont have to worry too much about how this is done today. The function also identifies which columns will be used as features (X) and labels (y).
 
 ### Test - Train Split
-This function also splits the data into __Train__ data and __Test__ data. As the names suggest, we will use one set to train our model and then test the model on the other set.
+This function also splits the data into __Train__ data and __Test__ data. As the names suggest, we will use one set to train our model and then test the model on the other set. The y label values are also converted into integers to optimise performance. 
 
 Data splitting is performed using the [test_train_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) utility in SciKit-Learn, defaulting with a test size of 30%.
 
