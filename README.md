@@ -42,6 +42,10 @@ The utility module also has a funcion that plots the data, highlighting the trai
 
 
 # TASKS
+Some of you may already be familair with Python, Jupyter, Numpy, matplotlib and Pandas and data visualisation and so can move quickly through the first few notebooks. If you are less familiar we recommend working through these slowly and try to understand what is happening - you can always work through teh rest in your own time and ask questions when you are stuck!
+
+Each notebook guides you through so you can go at your own pace - there are varies questions and challenges along the way!
+
 1. Warm yourself up with Python, Jupyter, Numpy and matplotlib by investigating the Sigmoid Function.  
 2. Familiarise youself with the Iris Dataset, including using Pandas to explore it and plot it.
 3. Step through the Logistic Regression example - follow each step using the system diagram below:
@@ -51,6 +55,6 @@ The utility module also has a funcion that plots the data, highlighting the trai
 
 
 # EXTRA
-1. What other ways could you visualise and explore the Iris dataset?
-2. What affect does the NN paramter have on the model? Run run teh code with different XX and see what happens. How could you optimise this?
+1. What other ways could you visualise and explore the Iris dataset? Implement these and try different Pandas and matplotlib routines.
+2. What affect does the NN parameter have on the model? Run run teh code with different XX and see what happens. How could you optimise this?
 
