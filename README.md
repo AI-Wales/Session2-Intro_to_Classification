@@ -42,10 +42,9 @@ The utility module also has a funcion that plots the data, highlighting the trai
 
 
 # TASKS
-1. Work through the data notebook and get to know the Iris Dataset
-2. Have a look at the Sigmoid Function - this is a typical function used to help make binary decisions.
+1. Warm yourself up with Python, Jupyter, Numpy and matplotlib by investigating the Sigmoid Function.  
+2. Familiarise youself with the Iris Dataset, including using Pandas to explore it and plot it.
 3. Step through the Logistic Regression example - follow each step using the system diagram below:
-
 4. Step through the K-NN example - follow each step using the system diagram below:
 5. Compare the accuracy of the two models - is one better than the other? Would you be happy with these models and predictions? Also look at the visual plot of the model. Are they similar? Can you - by eye - come up with a better set of regions to catorgise the data into?
 
