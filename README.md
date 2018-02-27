@@ -48,16 +48,12 @@ Each notebook guides you through so you can go at your own pace - there are vari
 
 1. Warm yourself up with Python, Jupyter, Numpy and matplotlib by investigating the Sigmoid Function.  
 2. Familiarise youself with the Iris Dataset, including using Pandas to explore it and plot it.
-3. Step through the Logistic Regression example - follow each step using the system diagram below:
-4. Step through the K-NN example - follow each step using the system diagram below:
-5. Compare the accuracy of the two models - is one better than the other? Would you be happy with these models and predictions? Also look at the visual plot of the model. Are they similar? Can you - by eye - come up with a better set of regions to catorgise the data into?
-
+3. Step through the Logistic Regression example - get the data,  prepare the data, fit the model, evaluate and predict
 
 
 # EXTRA
 1. What other ways could you visualise and explore the Iris dataset? Implement these and try different Pandas and matplotlib routines.
 2. Rerun the Logistic regression classifier but change the random_state value. What is happening?
-3. rerun the regression classifier but change the C value. What is happening?
-2. What affect does the NN parameter have on the model? Run run teh code with different XX and see what happens. How could you optimise this?
-3. Open up the scikit_utilities.py file and have a deeper look at the functions. 
+3. Rerun the regression classifier but change the C value. What is happening?
+4. Open up the scikit_utilities.py file and have a deeper look at the functions. 
 
