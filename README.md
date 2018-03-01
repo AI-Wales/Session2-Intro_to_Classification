@@ -1,17 +1,21 @@
 # Session2-Introduction to Classification
 We start our first foray into Machine Learning - classifying some data using the SciKit Learn library.
 
-We will use the [Iris Data Set](https://archive.ics.uci.edu/ml/datasets/iris). This is perhaps the best known database to be found in the pattern recognition literature. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
+Initially we will walk through these notebooks after some introduction material. Check out the [Getting Started](https://github.com/AI-Wales/Getting-Started) guide to getting your environment up and running. 
+
+We are going to look at a few methods at classifying labelled data - initially we are going to use some existing and popular libaries to show how easy it is to get started. We will be introducing the algorithms but wont be worried too much about their implementation - that is for future sessions!
+
+To start we will use the [Iris Data Set](https://archive.ics.uci.edu/ml/datasets/iris). This is perhaps the best known database to be found in the pattern recognition literature. The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. We have a look at teh dataset in more detail and see what this means. 
 
 We will use this to train some popular supervised classification algorithms in Python and [SciKit-Learn](http://scikit-learn.org/stable/).
 
-The first couple of Notebooks introduce you to the environment and look at the data set in more detail and shows how you can perform  some basic exploratory data analysis.
+The first couple of Notebooks introduce you to the environment and look at the data set in more detail and shows how you can perform  some basic exploratory data analysis. We will then look at training and evaulating some algorithms.
 
 ## Getting the Data
 The data can be downloaded from the ICS archives but is also included with SciKit-Learn. To make life especially easy there is a helper module in the repo that has a function `get_iris_data()` that automatically loads the Iris data set for you - so we dont have to worry too much about how this is done today. The function also identifies which columns will be used as features (X) and labels (y).
 
 ### Test - Train Split
-This function also splits the data into __Train__ data and __Test__ data. As the names suggest, we will use one set to train our model and then test the model on the other set. The y label values are also converted into integers to optimise performance. 
+This function also splits the data into __Train__ data and __Test__ data. As the names suggest, we will use one set to train our model and then test the model on the other set. The y label values are also converted into integers rather than text labels to optimise performance. 
 
 Data splitting is performed using the [test_train_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) utility in SciKit-Learn, defaulting with a test size of 30%.
 
@@ -42,13 +46,13 @@ The utility module also has a funcion that plots the data, highlighting the trai
 
 
 # TASKS
-Some of you may already be familair with Python, Jupyter, Numpy, matplotlib and Pandas and data visualisation and so can move quickly through the first few notebooks. If you are less familiar we recommend working through these slowly and try to understand what is happening - you can always work through teh rest in your own time and ask questions when you are stuck!
+Some of you may already be familair with Python, Jupyter, Numpy, matplotlib and Pandas and data visualisation and so can move quickly through the first few notebooks. If you are less familiar we recommend working through these slowly and try to understand what is happening - you can always work through the rest in your own time and ask questions when you are stuck!
 
-Each notebook guides you through so you can go at your own pace - there are varies questions and challenges along the way!
+Each notebook guides you through so you can go at your own pace in your own time - there are various questions and challenges along the way!
 
 1. Warm yourself up with Python, Jupyter, Numpy and matplotlib by investigating the Sigmoid Function.  
 2. Familiarise youself with the Iris Dataset, including using Pandas to explore it and plot it.
-3. Step through the Logistic Regression example - get the data,  prepare the data, fit the model, evaluate and predict
+3. Step through the Logistic Regression example - get the data,  prepare the data, fit the model, evaluate and predict - see how few lines of code are required to get started in ML - but appreciate what other things you need to consider and focus on to make sure the algorthms are perfroming appropriately. 
 
 
 # EXTRA
